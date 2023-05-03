@@ -13,7 +13,7 @@ Utilized libraries such as Scikit-Learn, importnb, and Pandas to perform data pr
 | Files/Folder| Description |
 | ------------- | ------------- |
 | **.ipynb Folder** | This folder includes the Jupyter Notebook files that were utilized to make Machine Learning models  |
-| **Dataset Folder** | Within this folder, there are two CSV tables that were acquired by scraping data from the web. And used in this project to create ML prediction models  |
+| **Dataset Folder** | Within this folder, there are two CSV tables that were acquired by scraping data from the web and used in this project to create ML prediction models  |
 | **Presentation Folder** | This folder contains the presentation in pdf format.  |
 | **Deployment Folder** | This folder contains flask deployment file |
 | **Web-page Folder** | This folder comprises HTML and CSS files, which are used to generate our webpage. |
