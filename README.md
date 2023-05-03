@@ -18,6 +18,7 @@ Utilized libraries such as Scikit-Learn, importnb, and Pandas to perform data pr
 | **Deployment Folder** | This folder contains flask deployment file |
 | **Web-page Folder** | This folder comprises HTML and CSS files, which are used to generate our webpage. |
 | **CSS Data Files Folder** | It contains all the files that are used for styling our webpage, like background images, etc |
+| **Pickle Folder** | It contains all the pickle files of both the models. |
 
 <br>
 <p align="center"><img src="https://user-images.githubusercontent.com/122404051/235923506-3e8b5280-f760-44d3-af9b-9da55946b26a.gif"
