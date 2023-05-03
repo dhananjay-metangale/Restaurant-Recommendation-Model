@@ -16,8 +16,9 @@ Utilized libraries such as Scikit-Learn, importnb, and Pandas to perform data pr
 | **Dataset Folder** | Within this folder, there are two CSV tables that were acquired by scraping data from the web. And used in this project to create ML prediction models  |
 | **Presentation Folder** | This folder contains the presentation in pdf format.  |
 | **Deployment Folder** | This folder contains flask deployment file |
-| **Web-page Folder** | The contents of this folder comprise HTML and CSS files, which are used to generate our webpage. |
-| **CSS Folder** | It contains all the files that are used for styling our webpage, like background images, etc |
+| **Web-page Folder** | This folder comprises HTML and CSS files, which are used to generate our webpage. |
+| **CSS Data Files Folder** | It contains all the files that are used for styling our webpage, like background images, etc |
+| **Images Folder** | It contains all the images we used in making web-page. |
 
 <br>
 <p align="center"><img src="https://user-images.githubusercontent.com/122404051/235923506-3e8b5280-f760-44d3-af9b-9da55946b26a.gif"
