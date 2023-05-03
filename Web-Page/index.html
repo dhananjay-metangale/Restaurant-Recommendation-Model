@@ -1,0 +1,69 @@
+<html>
+<head>
+  <link rel = "stylesheet" href="{{ url_for('static', filename='style.css') }}" >
+</head>
+<header><h1>The Only Needed Recommender</h1>
+</header>
+<body>
+  <div>
+    <form action="/predict" method="POST">
+      <div>
+      <label for="cuisine">Cuisine</label>
+      <input type="text" id="cuisine" name="cuisine" >
+      </div>
+      <br>
+      <div>
+      <label for="price_for_one">Price For One</label>
+      <input type="number" step="0.01" id="price_for_one" name="price_for_one">
+      </div>
+      <br>
+      <div>
+      <label for="Preferred_Location">Preferred Location</label>
+      <input type="text" id="Preferred_Location" name="Preferred_Location">
+      </div>
+      <br>
+      <div>
+      <button type="submit" value="predict">PREDICT</button>
+      </div>
+    </form>
+  </div>
+</body>
+<div class = 'holder'>
+  Tools And Tech Used
+  <div class = 'dhoom',style = "height: 1%; width: 1%">
+    <img src = 'static/excel.png' width="80" height="60"/>
+
+    <img src = 'static/python.png' width="100" height="60"/>
+    
+    <img src = 'static/sql.png' width="100" height="60"/>
+    
+    <img src = 'static/pbi.png' width="100" height="60"/>
+    
+    <img src = 'static/nummpy.png' width="100" height="60"/>
+    
+    <img src = 'static/pandas.png' width="100" height="60"/>
+    
+    <img src = 'static/selen.png' width="100" height="60"/>
+    
+    <img src = 'static/scikkit.png' width="100" height="60"/>
+    
+    <img src = 'static/html.png' width="100" height="60"/>
+    
+    <img src = 'static/css.png' width="100" height="60"/>
+
+  </div>
+</div>
+<footer>
+  <h6>
+  Khushbu Kumari
+  <br>
+  <br>
+  Dhananjay Metangale
+  <br>
+  <br>
+  Harsh Kumar
+  <br>
+  <br>
+  Harsh Pandey</h6>
+</footer>
+</html>

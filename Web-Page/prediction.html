@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+   <head>
+      <link rel = "stylesheet" href="{{ url_for('static', filename='style2.css') }}" >
+    </head>
+   <header>
+      <h1>The Recommendations And Area Insights</h1>
+   </header>
+   <body>
+    <div class = headings>
+      <h3 style="margin-right:40%">Predictions</h3>
+      <h3 style="margin-right:10%">Insights</h3>
+    </div>
+    <div class="row">
+        <table style="margin-right: 10%;">  
+          <tr>
+            <td>Preferred Price:-</td>
+            <td>{{prediction}}</td>  
+          </tr>
+          <br>
+          <tr>
+            <td>Preferred Location:-</td>
+            <td>{{locationpred}}</td>  
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <td>Average Price for one :-</td>
+            <td>{{ prediction1}}</td>
+          </tr>
+          <br>
+          <tr>
+            <td>Popular Cuisine :-</td>
+            <td>{{ prediction2}}</td>
+          </tr>  
+          <br>
+          <tr>
+            <td> Most Popular Restaurant :-</td>
+            <td> {{ prediction3}}</td>
+          </tr>  
+          <br>
+          <tr>
+            <td>Cuisine Served :-</td>
+            <td>{{ prediction4 }}</td>
+          </tr>
+          <br>
+          <tr>
+            <td>Popular Restaurant that serves our cuisine :-</td>
+            <td>{{ prediction5}}</td>
+          </tr>
+        </table>   
+   </body>
+</html>
