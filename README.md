@@ -33,15 +33,38 @@ Utilized libraries such as Scikit-Learn, importnb, and Pandas to perform data pr
 
 ## <img src=https://user-images.githubusercontent.com/106439762/178804195-d9db61fb-b2cf-4c8f-bfc3-214cfe0f534c.gif width="48" height="48" > Quick Summary
 
-    1. The Price prediction model is created on Decision Tree and Location prediction model is created on Random Forest as accuracy for both of these was best than others.
- 
+      1. The Price prediction model is created on Decision Tree and Location prediction model is created on Random Forest as accuracy for both of these was best than others.
+  ![1](https://github.com/dhananjay-metangale/Restaurant-Recommendation-Model/assets/122404051/b79ba0b1-33ee-4a9b-94e9-a8632834d035)
+	
+  ![2](https://github.com/dhananjay-metangale/Restaurant-Recommendation-Model/assets/122404051/7340adf7-d4c7-4be4-827e-94006daddc2d)
+
     2. Both of these models take three parameters, two of which are provided by the user they are Cuisine and Price For One and it takes the third parameter from the insights that is the Average Price For One of that location
+  
+  ![3](https://github.com/dhananjay-metangale/Restaurant-Recommendation-Model/assets/122404051/8b85a816-1923-484c-be9f-847af1fb41d2)
+  
+  ![4](https://github.com/dhananjay-metangale/Restaurant-Recommendation-Model/assets/122404051/5aec2398-89cb-4514-8818-49640bc22ce1)
     
     3. All of this inputs are taken from the html landing page using flask and then is compare with pkl file and is later predicted.
-    
+  
+  	a) HTML code for Main Page
+  
+  ![5](https://github.com/dhananjay-metangale/Restaurant-Recommendation-Model/assets/122404051/c2f64321-44c6-444a-a8b1-9f6c9d2fbd8b)
+
+  	b) HTML code for Prediction Page
+  
+  ![6](https://github.com/dhananjay-metangale/Restaurant-Recommendation-Model/assets/122404051/90c7072d-4e05-49ac-a9ae-ba32d7af783d)
+  	
+	c) Css Code For both Pages
+  
+  ![7](https://github.com/dhananjay-metangale/Restaurant-Recommendation-Model/assets/122404051/9a1e0871-7272-418b-9b13-d8ebb3213d6a)
+  
     4. We connected all the Notebooks to a main Python file using a library  'importnb'
     
     5. Later when all the Notebooks were connected, we used flask to deploy the model on Web Page
+    
+   ![8](https://github.com/dhananjay-metangale/Restaurant-Recommendation-Model/assets/122404051/5a489943-f98d-4888-820d-b40321784c5e)
+   ![9](https://github.com/dhananjay-metangale/Restaurant-Recommendation-Model/assets/122404051/c7349cbe-c2a6-4d47-b66e-4d420c69027c)
+
     
     6. Flask was used to Get and post the data on webpage
 	
